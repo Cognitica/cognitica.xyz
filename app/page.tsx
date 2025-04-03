@@ -1,10 +1,12 @@
 import CogniticaLogo from "@/src/icons/cogniticia-logo";
 import { Button } from "@/src/ui/button";
 import { ArrowRight, FlaskConical, Cpu, Braces } from "lucide-react";
+import Header from "@/src/ui/header";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen bg-black text-white">
+      <Header />
       {/* Hero Section */}
       <section className="pt-40">
         <div className="container mx-auto px-4">
@@ -110,7 +112,7 @@ fetch('https://api.cognitica.ai/v1/experimental', {
             </h2>
             <p className="text-lg text-gray-400">
               Explore our suite of cutting-edge AI experiments pushing the
-              boundaries of what's possible.
+              boundaries of what&apos;s possible.
             </p>
           </div>
 
